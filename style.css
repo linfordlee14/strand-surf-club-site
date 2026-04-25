@@ -828,9 +828,9 @@ textarea:focus-visible {
 .package__thumb {
   display: block;
   width: calc(100% + (var(--space-6) * 2));   /* 100% + 3rem = bleed both sides */
-  height: 180px;
+  height: 240px;
   object-fit: cover;
-  object-position: center 35%;
+  object-position: center 50%;
   margin-top: calc(-1 * var(--space-8));       /* bleed top padding */
   margin-left: calc(-1 * var(--space-6));      /* bleed left padding */
   margin-right: calc(-1 * var(--space-6));     /* bleed right padding */
