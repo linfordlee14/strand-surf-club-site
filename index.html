@@ -57,6 +57,23 @@
 
     <!-- ════════════════════════ HOME / HERO ════════════════════════ -->
     <section id="home" class="hero" aria-label="Hero — Strand Surf Club">
+
+      <!--
+        HERO PHOTO
+        Replace src with your image file, e.g. images/hero-surf.jpg
+        Recommended: landscape shot of a surfer on a wave at Strand/False Bay
+        Minimum size: 1600×900px. Compress to <250KB via squoosh.app
+      -->
+      <img
+        src="images/hero-surf.jpg"
+        alt=""
+        class="hero__img"
+        width="1600"
+        height="900"
+        loading="eager"
+        aria-hidden="true"
+      />
+
       <div class="hero__bg-layer" aria-hidden="true"></div>
       <div class="hero__content container">
         <p class="hero__eyebrow">Cape Town &middot; The Strand &middot; Western Cape</p>
@@ -87,22 +104,38 @@
             <a href="#book-a-lesson" class="btn btn--primary reveal">Get in the Water</a>
           </div>
 
-          <div class="about__stats reveal" aria-label="Club statistics">
-            <div class="stat-block">
-              <span class="stat-block__number">1&thinsp;200+</span>
-              <span class="stat-block__label">Surfers coached</span>
-            </div>
-            <div class="stat-block">
-              <span class="stat-block__number">10+</span>
-              <span class="stat-block__label">Years on the Strand</span>
-            </div>
-            <div class="stat-block">
-              <span class="stat-block__number">4</span>
-              <span class="stat-block__label">Certified instructors</span>
-            </div>
-            <div class="stat-block">
-              <span class="stat-block__number">100%</span>
-              <span class="stat-block__label">Ocean certified</span>
+          <!--
+            ABOUT PHOTO + STATS
+            Replace src with your image, e.g. images/about-beach.jpg
+            Ideal: instructor with students in water, or candid beach/surf portrait
+            Minimum size: 800×500px
+          -->
+          <div class="about__visual reveal">
+            <img
+              src="images/about-beach.jpg"
+              alt="Strand Surf Club instructor coaching students at Strand Beach, Western Cape"
+              width="600"
+              height="380"
+              loading="lazy"
+              class="about__photo"
+            />
+            <div class="about__stats" aria-label="Club statistics">
+              <div class="stat-block">
+                <span class="stat-block__number">1&thinsp;200+</span>
+                <span class="stat-block__label">Surfers coached</span>
+              </div>
+              <div class="stat-block">
+                <span class="stat-block__number">10+</span>
+                <span class="stat-block__label">Years on the Strand</span>
+              </div>
+              <div class="stat-block">
+                <span class="stat-block__number">4</span>
+                <span class="stat-block__label">Certified instructors</span>
+              </div>
+              <div class="stat-block">
+                <span class="stat-block__number">100%</span>
+                <span class="stat-block__label">Ocean certified</span>
+              </div>
             </div>
           </div>
 
@@ -120,7 +153,21 @@
 
         <div class="packages" role="list">
 
+          <!--
+            PACKAGE THUMBNAIL 1 — BEGINNER
+            Replace src: images/lesson-beginner.jpg
+            Ideal: first-timer on a board, shallow whitewash, wide shot
+            Minimum size: 600×360px
+          -->
           <article class="package reveal" role="listitem">
+            <img
+              src="images/lesson-beginner.jpg"
+              alt="First-time surfer catching their first wave at Strand Beach"
+              width="400"
+              height="200"
+              loading="lazy"
+              class="package__thumb"
+            />
             <span class="package__level">Beginner</span>
             <h3 class="package__name">First Paddle</h3>
             <p class="package__desc">Never stood on a board? We'll have you riding your first wave in a single 2-hour session. Board, wetsuit, and wax all included.</p>
@@ -128,7 +175,21 @@
             <a href="#booking-form" class="btn btn--primary">Book This Session</a>
           </article>
 
+          <!--
+            PACKAGE THUMBNAIL 2 — INTERMEDIATE (featured card)
+            Replace src: images/lesson-intermediate.jpg
+            Ideal: surfer mid-pop-up or trimming along a wave face
+            Minimum size: 600×360px
+          -->
           <article class="package package--featured reveal" role="listitem">
+            <img
+              src="images/lesson-intermediate.jpg"
+              alt="Intermediate surfer working on technique at Strand Beach, Cape Town"
+              width="400"
+              height="200"
+              loading="lazy"
+              class="package__thumb package__thumb--featured"
+            />
             <span class="package__level">Intermediate</span>
             <h3 class="package__name">Push Your Surfing</h3>
             <p class="package__desc">Already catching waves? Work on your pop-up, positioning, and reading the line-up. Half-day session with in-water video analysis.</p>
@@ -136,7 +197,21 @@
             <a href="#booking-form" class="btn btn--accent">Book This Session</a>
           </article>
 
+          <!--
+            PACKAGE THUMBNAIL 3 — PRIVATE
+            Replace src: images/lesson-private.jpg
+            Ideal: one-on-one coaching shot, instructor beside student in lineup
+            Minimum size: 600×360px
+          -->
           <article class="package reveal" role="listitem">
+            <img
+              src="images/lesson-private.jpg"
+              alt="Private one-on-one surf coaching session at Strand Beach, Western Cape"
+              width="400"
+              height="200"
+              loading="lazy"
+              class="package__thumb"
+            />
             <span class="package__level">Private</span>
             <h3 class="package__name">One-on-One</h3>
             <p class="package__desc">Your wave, your pace. Full-day private coaching with a dedicated instructor, custom session plan, and live feedback in the water.</p>
